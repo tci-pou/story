@@ -1,0 +1,10 @@
+i {
+	font-size: 40px;
+	color: rgba(250,0,0,0.7);
+	letter-spacing: 20px;
+	transition: 0.5s;
+}
+i:hover {
+	color: rgb(250,0,0);
+	font-size: 50px;
+}

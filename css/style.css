@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Roboto+Slab:wght@300;400;500;700&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.0.10/css/all.css');
+@import url("component/container.css");
+@import url("component/button.css");
+
+body { 
+	background-image: url(https://img.freepik.com/free-photo/design-space-paper-textured-background_53876-42312.jpg?size=626&ext=jpg);
+	font-family: "Roboto Slab",serif;	
+	color: rgb(30,30,30);
+	background-size: cover;
+}
+
+div {
+	margin : 0px auto;
+   padding: 12px 10px;
+}
+.card {
+	margin: 10px 10px;
+	padding: 12px 10px;
+	width: ;
+	text-align: center;
+	background-color: #f1dca7; 
+	border-radius: 15px;
+	text-align: center;
+	list-style-position: inside;
+	box-shadow: 2px 2px 3px grey;
+}		
+#cardflex {
+	height: 700px;
+	display: flex;
+	align-items: center;
+    justify-content: space-around;
+	padding: 12px 20px;
+	background-color: rgba(0,0,0,0.3);
+	border-radius: 5%; 
+}
+i {
+	font-size: 40px;
+	color: rgba(250,0,0,0.7);
+	letter-spacing: 20px;
+	transition: 0.5s;
+}
+i:hover {
+	color: rgb(250,0,0);
+	font-size: 50px;
+}
+h1 {
+	font-family: "Anton" ,sans-serif;
+	color: #4C9F70;
+}
+h2 {
+	font-family: "Anton" ,sans-serif;
+	color: black;
+}
+p { 
+	color: #49516f;
+	text-align: center;
+}
+ul {
+	text-align: center;
+}
+li {
+	text-align: center;
+}
+a {
+	color: none;
+}
+.circle {
+	border-radius: 50%;
+}
+.img-bordered {
+  border: 10px solid green;
+}
+.bd {
+	object-fit: cover;
+	height: 100%;
+	width: 40%;
+	box-shadow: 0px 10px 10px rgba(0,0,0,0.9);
+}
+
+
+@media (max-width: 1000px) {.container 
+	{
+	width: 700px;
+}
+@media (max-width: 750px) {.container 
+  {
+   width: 500px;
+}
+@media (max-width: 550px) {.container 
+  {
+   width: 300px;
+}
+
+.carousel-inner {
+	width: 85%;
+	height: 400px;
+}
